@@ -55861,3 +55861,1707 @@
 2026-03-19 15:24:16,945 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=3&day=&barcode=&page=1&pageSize=20
 2026-03-19 15:24:17,900 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
 2026-03-19 15:24:18,168 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=3
+2026-09-16 18:01:13,464 [INFO] [logger.py:41] ======================================================================
+2026-09-16 18:01:13,465 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-16 18:01:13,465 [INFO] [logger.py:41] ======================================================================
+2026-09-16 18:01:13,526 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-16 18:01:13,590 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-16 18:01:13,683 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-16 18:01:13,683 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-16 18:01:13,696 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-16 18:01:13,696 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-16 18:01:14,696 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-16 18:01:15,595 [INFO] [logger.py:41] ======================================================================
+2026-09-16 18:01:15,596 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-16 18:01:15,597 [INFO] [logger.py:41] ======================================================================
+2026-09-16 18:01:15,620 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-16 18:01:15,649 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-16 18:01:15,743 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-16 18:01:15,744 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-16 18:01:15,761 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-16 18:01:15,761 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-16 18:01:16,762 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-16 18:01:19,352 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-16 18:01:19,605 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-16 18:01:19,838 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:47:01,715 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:47:01,715 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:47:01,717 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:47:01,874 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:47:01,937 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:47:01,987 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:47:01,988 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:47:02,006 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:47:02,006 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:47:03,008 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:47:04,362 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:47:04,363 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:47:04,364 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:47:04,419 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:47:04,449 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:47:04,522 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:47:04,523 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:47:04,536 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:47:04,537 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:47:05,538 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:47:09,387 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 08:47:09,390 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:47:09,611 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:47:09,689 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:48:11,769 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/health
+2026-09-17 08:48:20,719 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&page=1&pageSize=5
+2026-09-17 08:48:22,605 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:55:10,406 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:55:10,407 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:55:10,408 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:55:10,529 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:55:10,561 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:55:10,596 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:55:10,597 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:55:10,613 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:55:10,613 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:55:11,614 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:55:38,148 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:55:38,148 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:55:38,149 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:55:38,309 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:55:38,346 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:55:38,376 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:55:38,377 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:55:38,391 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:55:38,391 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:55:39,391 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:55:44,197 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:55:44,198 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:55:44,198 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:55:44,224 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:55:44,254 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:55:44,280 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:55:44,280 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:55:44,291 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:55:44,291 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:55:45,292 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:56:27,170 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:56:27,170 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:56:27,170 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:56:27,198 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:56:27,225 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:56:27,251 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:56:27,251 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:56:27,260 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:56:27,260 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:56:28,261 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:56:29,844 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:56:29,844 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:56:29,844 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:56:29,872 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:56:29,908 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:56:29,961 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:56:29,962 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:56:29,975 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:56:29,976 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:56:30,976 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:56:38,010 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&page=1&pageSize=5
+2026-09-17 08:56:39,711 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:56:41,656 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=5
+2026-09-17 08:57:21,080 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:57:21,080 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:57:21,081 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:57:21,117 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:57:21,145 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:57:21,177 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:57:21,178 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:57:21,187 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:57:21,187 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:57:22,188 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:57:29,766 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:57:29,766 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:57:29,767 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:57:29,785 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:57:29,801 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:57:29,823 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:57:29,824 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:57:29,832 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:57:29,833 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:57:30,833 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:57:31,997 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:57:31,997 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 08:57:31,997 [INFO] [logger.py:41] ======================================================================
+2026-09-17 08:57:32,017 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 08:57:32,034 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 08:57:32,086 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 08:57:32,086 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 08:57:32,096 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 08:57:32,097 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 08:57:33,097 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 08:57:36,460 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:58:27,431 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:58:28,256 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:58:28,838 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:58:36,053 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 08:58:36,053 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 96, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 08:58:36,070 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=96, 原因=第5轮测试, 状态=normal
+2026-09-17 08:58:36,520 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:58:36,779 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:58:36,967 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:58:40,639 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 08:58:40,639 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 36, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 08:58:40,643 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=36, 原因=第6轮测试, 状态=normal
+2026-09-17 08:58:41,064 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:58:41,327 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:58:41,513 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:58:43,517 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 08:58:43,518 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 96, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 08:58:43,521 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=96, 原因=第5轮测试, 状态=normal
+2026-09-17 08:58:43,925 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:58:44,186 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:58:44,373 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:58:46,141 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 08:58:46,142 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 97, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 08:58:46,145 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=97, 原因=第6轮测试, 状态=normal
+2026-09-17 08:58:46,562 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:58:46,807 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:58:46,978 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:58:52,409 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 08:58:52,409 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 08:58:52,411 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=None, 原因=, 状态=pending
+2026-09-17 08:58:52,731 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:58:52,994 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:58:53,149 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:58:55,138 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 08:58:55,139 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 08:58:55,142 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=None, 原因=, 状态=resolved
+2026-09-17 08:58:55,467 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:58:55,729 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:58:55,881 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:58:57,432 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 08:58:57,432 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 08:58:57,436 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=None, 原因=, 状态=pending
+2026-09-17 08:58:57,764 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:58:58,012 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:58:58,181 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 08:59:14,502 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 08:59:25,042 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue-reasons
+2026-09-17 08:59:25,043 [INFO] [logger.py:41] [API] 请求JSON数据: {'id': None, 'reason_code': '11', 'reason_name': '11', 'description': '11', 'category': '', 'sort_order': 0, 'is_active': True}
+2026-09-17 08:59:25,304 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 08:59:33,076 [INFO] [logger.py:41] [API] 收到 DELETE 请求: http://localhost:5000/api/issue-reasons/442
+2026-09-17 08:59:33,415 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 08:59:36,787 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 08:59:37,102 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 08:59:38,038 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 08:59:38,284 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:04:09,372 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=5
+2026-09-17 09:04:11,063 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:04:11,063 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 09:04:11,065 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=None, 原因=, 状态=pending
+2026-09-17 09:04:19,609 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:04:19,610 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 09:04:19,612 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=None, 原因=, 状态=pending
+2026-09-17 09:05:37,911 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:05:37,911 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 09:05:37,911 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:05:37,944 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 09:05:37,968 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 09:05:38,000 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 09:05:38,001 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 09:05:38,012 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 09:05:38,013 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 09:05:39,013 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 09:05:49,399 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:05:49,399 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 09:05:49,399 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:05:49,423 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 09:05:49,439 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 09:05:49,464 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 09:05:49,465 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 09:05:49,477 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 09:05:49,477 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 09:05:50,478 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 09:06:02,626 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:06:02,627 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 09:06:02,627 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:06:02,651 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 09:06:02,670 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 09:06:02,693 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 09:06:02,694 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 09:06:02,702 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 09:06:02,703 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 09:06:03,703 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 09:06:04,711 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:06:04,711 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 09:06:04,711 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:06:04,730 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 09:06:04,750 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 09:06:04,783 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 09:06:04,784 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 09:06:04,792 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 09:06:04,793 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 09:06:05,793 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 09:06:11,516 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:06:11,517 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 09:06:11,577 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=None, 原因=, 状态=pending
+2026-09-17 09:06:11,612 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue/info?barcode=1100ee00123456781414141414142323e6cf
+2026-09-17 09:06:38,722 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:06:38,722 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:06:38,741 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=None, 原因=, 状态=normal
+2026-09-17 09:07:26,514 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:07:26,514 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 96, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:07:26,532 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=96, 原因=第5轮测试, 状态=normal
+2026-09-17 09:07:26,777 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:07:26,963 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:07:27,241 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:07:33,239 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:07:33,239 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 36, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:07:33,259 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=36, 原因=第6轮测试, 状态=normal
+2026-09-17 09:07:33,684 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:07:33,933 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:07:34,132 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:07:36,548 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:07:36,548 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:07:36,564 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=None, 原因=, 状态=normal
+2026-09-17 09:07:36,986 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:07:37,245 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:07:37,447 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:07:39,589 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:07:39,589 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 106, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:07:39,609 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=106, 原因=第15轮测试, 状态=normal
+2026-09-17 09:07:40,024 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:07:40,286 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:07:40,489 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:07:55,279 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:07:55,279 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 106, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 09:07:55,303 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=106, 原因=第15轮测试, 状态=pending
+2026-09-17 09:07:55,632 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:07:55,895 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:07:56,065 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:07:57,678 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:07:57,679 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 106, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 09:07:57,723 [INFO] [logger.py:41] [问题原因] 条码 1100ee00123456781414141414142323e6cf 的问题原因已更新：ID=106, 原因=第15轮测试, 状态=resolved
+2026-09-17 09:07:58,045 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:07:58,308 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:07:58,478 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:09:31,339 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:09:31,340 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 09:09:31,340 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:09:31,363 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 09:09:31,386 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 09:09:31,416 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 09:09:31,417 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 09:09:31,431 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 09:09:31,432 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 09:09:32,432 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 09:09:42,456 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 09:09:49,647 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 09:10:01,462 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:10:01,463 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 09:10:01,463 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:10:01,510 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 09:10:01,560 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 09:10:01,634 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 09:10:01,635 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 09:10:01,655 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 09:10:01,656 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 09:10:02,656 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 09:10:03,890 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:10:03,890 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 09:10:03,891 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:10:03,914 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 09:10:03,938 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 09:10:03,983 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 09:10:03,983 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 09:10:03,994 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 09:10:03,994 [INFO] [logger.py:41] [TCP] 服务器启动在 192.168.1.101:8080
+2026-09-17 09:10:04,995 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 09:10:15,428 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:10:15,429 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 09:10:15,436 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=None, 状态=pending
+2026-09-17 09:10:52,164 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:10:52,164 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 103, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 09:10:52,173 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=103, 状态=resolved
+2026-09-17 09:10:52,425 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:10:52,595 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:10:52,872 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:10:54,970 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:10:54,971 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 103, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 09:10:54,980 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=103, 状态=pending
+2026-09-17 09:10:55,313 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:10:55,563 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:10:55,734 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:10:57,461 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:10:57,462 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 103, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:10:57,472 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=103, 状态=normal
+2026-09-17 09:10:57,805 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:10:58,050 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:10:58,250 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:10:59,549 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:10:59,549 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 103, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 09:10:59,559 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=103, 状态=resolved
+2026-09-17 09:10:59,883 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:11:00,144 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:00,314 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:05,137 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:11:05,137 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 103, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 09:11:05,148 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=103, 状态=pending
+2026-09-17 09:11:05,478 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:11:05,722 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:05,905 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:08,781 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:11:08,781 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 103, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:11:08,790 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=103, 状态=normal
+2026-09-17 09:11:09,120 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:11:09,369 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:09,539 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:26,243 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:11:26,244 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 42, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:11:26,260 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=42, 状态=normal
+2026-09-17 09:11:26,580 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:11:26,840 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:26,996 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:28,467 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:11:28,467 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 104, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:11:28,477 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=104, 状态=normal
+2026-09-17 09:11:29,004 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:11:29,265 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:29,451 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:31,174 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:11:31,175 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 09:11:31,189 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=None, 状态=normal
+2026-09-17 09:11:31,599 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:11:31,860 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:31,998 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:35,100 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 09:11:35,101 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 317, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 44, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 09:11:35,116 [INFO] [logger.py:41] [问题原因] record_id=317 更新：原因ID=44, 状态=resolved
+2026-09-17 09:11:35,533 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 09:11:35,795 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:35,966 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:40,555 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=2&pageSize=20
+2026-09-17 09:11:40,873 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=2&pageSize=20
+2026-09-17 09:11:40,948 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:41,194 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=2&pageSize=20
+2026-09-17 09:11:41,265 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:41,277 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:41,581 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:11:41,597 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:11:41,908 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:15:29,927 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 09:15:45,440 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 09:16:24,299 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=100
+2026-09-17 09:16:24,604 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=100
+2026-09-17 09:16:24,679 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=100
+2026-09-17 09:16:25,341 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:16:25,604 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:16:25,681 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:16:25,928 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:16:25,958 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:16:26,258 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:16:28,234 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=10
+2026-09-17 09:16:28,553 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=10
+2026-09-17 09:16:28,677 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:16:28,878 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=10
+2026-09-17 09:16:29,003 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:16:29,005 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:16:29,326 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 09:16:29,327 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:16:29,651 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 09:16:31,872 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=100000
+2026-09-17 09:46:19,135 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:46:19,135 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 09:46:19,135 [INFO] [logger.py:41] ======================================================================
+2026-09-17 09:46:19,178 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 09:46:19,207 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 09:46:19,248 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 09:46:19,249 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 09:46:19,262 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 09:46:19,263 [ERROR] [logger.py:44] [TCP] 启动失败: [WinError 10049] 在其上下文中，该请求的地址无效。
+2026-09-17 09:46:19,263 [INFO] [logger.py:41] [TCP] 正在停止服务器...
+2026-09-17 09:46:19,263 [INFO] [logger.py:41] [TCP] 服务器已停止
+2026-09-17 09:46:20,262 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 10:05:56,475 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:05:56,479 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 10:05:58,829 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:05:59,208 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:06:29,870 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:06:29,871 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 10:06:29,871 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:06:29,994 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 10:06:30,051 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 10:06:30,175 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 10:06:30,176 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 10:06:30,191 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 10:06:30,192 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 10:06:31,192 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 10:06:31,338 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:35907 -> ID: 60
+2026-09-17 10:06:31,348 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:35907 ID: 60
+2026-09-17 10:06:31,349 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:35907 已连接
+2026-09-17 10:06:32,150 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:06:32,151 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 10:06:32,151 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:06:32,192 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 10:06:32,222 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 10:06:32,370 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 10:06:32,371 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 10:06:32,389 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 10:06:32,389 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 10:06:33,390 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 10:07:31,351 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:35907 连接超时
+2026-09-17 10:07:32,358 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:45229 -> ID: 62
+2026-09-17 10:07:32,365 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:45229 ID: 62
+2026-09-17 10:07:32,365 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:45229 已连接
+2026-09-17 10:08:32,380 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:45229 连接超时
+2026-09-17 10:08:33,394 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:42484 -> ID: 64
+2026-09-17 10:08:33,403 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:42484 ID: 64
+2026-09-17 10:08:33,404 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:42484 已连接
+2026-09-17 10:08:35,885 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:42484 强制断开
+2026-09-17 10:09:29,371 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 10:09:29,386 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 318, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 10:09:29,408 [INFO] [logger.py:41] [问题原因] record_id=318 更新：原因ID=None, 状态=resolved
+2026-09-17 10:09:29,568 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:09:29,752 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:09:30,050 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:09:31,510 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 10:09:31,511 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 317, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 44, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 10:09:31,528 [INFO] [logger.py:41] [问题原因] record_id=317 更新：原因ID=44, 状态=pending
+2026-09-17 10:09:31,853 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:09:32,115 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:09:32,299 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:09:33,797 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 10:09:33,797 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 305, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 106, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 10:09:33,810 [INFO] [logger.py:41] [问题原因] record_id=305 更新：原因ID=106, 状态=normal
+2026-09-17 10:09:34,156 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:09:34,404 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:09:34,603 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:09:36,841 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:09:36,841 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 10:09:37,552 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:09:37,806 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:13:44,916 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:55823 -> ID: 66
+2026-09-17 10:13:44,926 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:55823 ID: 66
+2026-09-17 10:13:44,930 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:55823 已连接
+2026-09-17 10:13:48,499 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,538 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,583 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,634 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,676 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,721 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,760 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,804 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,843 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,883 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,925 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:48,968 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,006 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,046 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,083 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,130 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,177 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,217 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,260 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,301 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:49,347 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:13:55,754 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:13:55,996 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:13:56,275 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:14:08,348 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,391 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,429 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,469 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,512 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,558 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,589 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,630 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,672 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,715 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,760 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,798 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,838 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,876 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,923 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:08,970 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,012 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,054 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,095 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,139 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,184 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,226 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,266 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,310 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,349 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:09,393 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:15,993 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:14:16,451 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:14:16,716 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:14:47,166 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,214 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,251 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,295 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,338 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,381 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,428 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,467 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,508 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,558 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,592 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:47,630 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,275 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,313 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,359 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,397 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,435 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,484 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,520 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,556 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,599 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,638 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,675 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,719 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:49,762 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,001 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,047 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,078 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,122 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,169 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,208 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,249 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,290 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:50,332 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:53,085 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:58,947 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,106 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,145 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,187 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,231 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,268 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,314 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,359 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,399 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,437 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,482 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,525 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,563 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,601 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:14:59,641 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:00,957 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,000 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,043 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,086 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,132 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,171 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,211 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,256 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,295 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,335 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,947 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:01,985 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,030 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,072 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,113 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,152 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,191 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,235 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,281 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,319 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,364 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:02,407 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:07,881 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:07,934 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:07,969 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,018 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,055 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,095 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,135 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,183 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,221 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,265 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,311 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,352 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,395 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,439 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,479 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,521 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,562 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,613 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,656 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,701 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,748 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,792 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,833 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,879 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,917 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:08,965 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,013 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,059 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,101 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,142 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,181 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,230 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,280 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,322 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,373 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:09,419 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:32,731 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:32,782 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:32,823 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:32,868 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:32,910 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:32,950 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,421 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,469 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,503 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,547 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,593 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,640 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,686 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,729 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,770 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,813 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,854 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,900 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,938 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:36,976 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,022 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,067 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,114 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,162 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,249 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,288 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,327 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,365 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,409 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,450 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,493 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,535 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,576 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,615 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,659 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,704 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,745 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,788 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,830 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,867 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,913 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,950 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:37,995 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:38,036 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,408 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,447 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,485 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,525 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,568 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,609 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,647 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,687 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,726 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,773 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,811 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,853 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,896 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,939 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:39,981 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:40,022 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:40,068 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:40,116 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:42,951 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:42,997 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:43,087 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:43,134 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:43,182 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:43,224 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:43,268 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:43,313 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:44,828 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:44,874 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:44,916 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:44,958 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:45,002 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:45,038 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:45,084 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:45,129 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:45,211 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:45,251 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:45,289 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:49,799 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:49,846 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:49,893 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:49,937 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:49,976 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,019 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,104 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,190 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,239 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,283 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,330 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,376 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,423 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,469 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,513 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,556 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:50,634 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,007 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,053 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,096 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,134 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,178 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,234 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,266 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,312 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,352 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,395 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,442 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,486 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,529 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,573 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,614 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,655 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,696 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,738 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,780 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,818 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,863 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,905 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,951 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:52,996 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,042 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,082 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,127 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,172 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,217 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,259 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,303 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,349 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,783 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,829 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,872 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:15:53,909 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:24,852 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:24,890 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:24,926 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:24,969 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,017 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,064 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,107 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,148 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,188 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,228 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,273 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,317 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,356 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,398 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,444 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,484 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,523 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,568 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,659 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,700 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,741 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,778 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:25,821 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,060 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,099 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,141 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,195 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,237 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,269 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,312 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,355 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,397 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,442 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,494 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,523 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,564 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:16:36,602 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:55823 - binary 18字节
+2026-09-17 10:17:36,613 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:55823 连接超时
+2026-09-17 10:17:37,617 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:55823 ID: 66
+2026-09-17 10:17:37,618 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:55823 已连接
+2026-09-17 10:18:37,625 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:55823 连接超时
+2026-09-17 10:18:38,634 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:63216 -> ID: 69
+2026-09-17 10:18:38,640 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:63216 ID: 69
+2026-09-17 10:18:38,641 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:63216 已连接
+2026-09-17 10:19:08,955 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 10:19:08,958 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:19:09,677 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:19:09,947 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:19:17,509 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 10:19:17,513 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 642, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 97, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 10:19:17,530 [INFO] [logger.py:41] [问题原因] record_id=642 更新：原因ID=97, 状态=normal
+2026-09-17 10:19:17,972 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:19:18,219 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:19:18,404 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:19:24,779 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 10:19:24,779 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 643, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 97, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 10:19:24,806 [INFO] [logger.py:41] [问题原因] record_id=643 更新：原因ID=97, 状态=normal
+2026-09-17 10:19:25,235 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:19:25,494 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:19:25,678 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:19:27,138 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 10:19:27,139 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 644, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 97, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 10:19:27,149 [INFO] [logger.py:41] [问题原因] record_id=644 更新：原因ID=97, 状态=normal
+2026-09-17 10:19:27,579 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:19:27,826 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:19:28,011 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:19:38,650 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:63216 连接超时
+2026-09-17 10:19:39,660 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:46616 -> ID: 71
+2026-09-17 10:19:39,667 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:46616 ID: 71
+2026-09-17 10:19:39,668 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:46616 已连接
+2026-09-17 10:20:39,672 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:46616 连接超时
+2026-09-17 10:20:40,688 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:56932 -> ID: 73
+2026-09-17 10:20:40,698 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:56932 ID: 73
+2026-09-17 10:20:40,698 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:56932 已连接
+2026-09-17 10:21:40,710 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:56932 连接超时
+2026-09-17 10:21:41,715 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:56898 -> ID: 75
+2026-09-17 10:21:41,724 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:56898 ID: 75
+2026-09-17 10:21:41,724 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:56898 已连接
+2026-09-17 10:22:41,735 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:56898 连接超时
+2026-09-17 10:22:42,742 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:37192 -> ID: 77
+2026-09-17 10:22:42,749 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:37192 ID: 77
+2026-09-17 10:22:42,750 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:37192 已连接
+2026-09-17 10:23:42,757 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:37192 连接超时
+2026-09-17 10:23:43,766 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:40323 -> ID: 79
+2026-09-17 10:23:43,773 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:40323 ID: 79
+2026-09-17 10:23:43,774 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:40323 已连接
+2026-09-17 10:24:43,782 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:40323 连接超时
+2026-09-17 10:24:44,794 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:59078 -> ID: 81
+2026-09-17 10:24:44,801 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:59078 ID: 81
+2026-09-17 10:24:44,803 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:59078 已连接
+2026-09-17 10:25:44,812 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:59078 连接超时
+2026-09-17 10:25:45,837 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:38810 -> ID: 83
+2026-09-17 10:25:45,845 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:38810 ID: 83
+2026-09-17 10:25:45,847 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:38810 已连接
+2026-09-17 10:26:45,854 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:38810 连接超时
+2026-09-17 10:26:46,867 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:57561 -> ID: 85
+2026-09-17 10:26:46,874 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:57561 ID: 85
+2026-09-17 10:26:46,875 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:57561 已连接
+2026-09-17 10:27:46,876 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:57561 连接超时
+2026-09-17 10:27:47,890 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:35830 -> ID: 87
+2026-09-17 10:27:47,897 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:35830 ID: 87
+2026-09-17 10:27:47,897 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:35830 已连接
+2026-09-17 10:28:47,910 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:35830 连接超时
+2026-09-17 10:28:48,920 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:62665 -> ID: 89
+2026-09-17 10:28:48,928 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:62665 ID: 89
+2026-09-17 10:28:48,929 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:62665 已连接
+2026-09-17 10:29:48,937 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:62665 连接超时
+2026-09-17 10:29:49,946 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:52423 -> ID: 91
+2026-09-17 10:29:49,953 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:52423 ID: 91
+2026-09-17 10:29:49,954 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:52423 已连接
+2026-09-17 10:30:49,968 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:52423 连接超时
+2026-09-17 10:30:50,981 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:43177 -> ID: 93
+2026-09-17 10:30:51,017 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:43177 ID: 93
+2026-09-17 10:30:51,018 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:43177 已连接
+2026-09-17 10:31:51,022 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:43177 连接超时
+2026-09-17 10:31:52,031 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:37268 -> ID: 95
+2026-09-17 10:31:52,037 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:37268 ID: 95
+2026-09-17 10:31:52,038 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:37268 已连接
+2026-09-17 10:32:52,050 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:37268 连接超时
+2026-09-17 10:32:53,059 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:59838 -> ID: 97
+2026-09-17 10:32:53,064 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:59838 ID: 97
+2026-09-17 10:32:53,065 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:59838 已连接
+2026-09-17 10:33:24,244 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:59838 强制断开
+2026-09-17 10:37:01,191 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:37:01,407 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:37:01,779 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:37:57,058 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:37:57,058 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 10:37:57,058 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:37:57,143 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 10:37:57,190 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 10:37:57,238 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 10:37:57,239 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 10:37:57,253 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 10:37:57,253 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 10:37:58,255 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 10:40:11,894 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:40:11,895 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 10:40:11,895 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:40:11,943 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 10:40:11,986 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 10:40:12,033 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 10:40:12,034 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 10:40:12,046 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 10:40:12,046 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 10:40:13,047 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 10:41:00,053 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:41:00,067 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 10:41:00,069 [INFO] [logger.py:41] ======================================================================
+2026-09-17 10:41:00,111 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 10:41:00,153 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 10:41:00,192 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 10:41:00,193 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 10:41:00,212 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 10:41:00,213 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 10:41:01,214 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 10:43:19,956 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:43:20,250 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:43:20,626 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:43:43,463 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:43:43,930 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:43:44,194 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:43:53,413 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:43:53,842 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:43:54,104 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:49:30,169 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:38769 -> ID: 99
+2026-09-17 10:49:30,537 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:38769 ID: 99
+2026-09-17 10:49:30,594 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:38769 已连接
+2026-09-17 10:49:34,628 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:38769 - binary 18字节
+2026-09-17 10:49:42,561 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:49:42,802 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:49:43,035 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:50:05,212 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:38769 - binary 18字节
+2026-09-17 10:50:09,433 [INFO] [logger.py:41] [TCP] 收到 10.106.0.234:38769 - binary 18字节
+2026-09-17 10:50:12,248 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:50:12,769 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:50:13,019 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:50:21,037 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:50:21,481 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:50:21,729 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:50:46,820 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 10:50:47,247 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 10:50:47,508 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 10:51:09,451 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:38769 连接超时
+2026-09-17 10:51:19,053 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:33554 -> ID: 101
+2026-09-17 10:51:19,064 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:33554 ID: 101
+2026-09-17 10:51:19,067 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:33554 已连接
+2026-09-17 10:52:19,081 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:33554 连接超时
+2026-09-17 10:52:20,088 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:43104 -> ID: 103
+2026-09-17 10:52:20,094 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:43104 ID: 103
+2026-09-17 10:52:20,095 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:43104 已连接
+2026-09-17 10:53:20,109 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:43104 连接超时
+2026-09-17 10:53:21,118 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:34771 -> ID: 105
+2026-09-17 10:53:21,124 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:34771 ID: 105
+2026-09-17 10:53:21,125 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:34771 已连接
+2026-09-17 10:54:21,142 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:34771 连接超时
+2026-09-17 10:54:22,165 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:34032 -> ID: 107
+2026-09-17 10:54:22,183 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:34032 ID: 107
+2026-09-17 10:54:22,183 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:34032 已连接
+2026-09-17 10:55:22,196 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:34032 连接超时
+2026-09-17 10:55:23,206 [INFO] [logger.py:41] [数据库] 创建新客户端: 10.106.0.234:41951 -> ID: 109
+2026-09-17 10:55:23,211 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:41951 ID: 109
+2026-09-17 10:55:23,212 [INFO] [logger.py:41] [TCP] 新客户端 10.106.0.234:41951 已连接
+2026-09-17 10:55:33,834 [INFO] [logger.py:41] [TCP] 客户端 10.106.0.234:41951 强制断开
+2026-09-17 14:26:50,592 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:26:50,593 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 14:26:50,593 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:26:50,646 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 14:26:50,977 [INFO] [logger.py:41] [数据库] 从 JSON 导入 20 条维护人映射
+2026-09-17 14:26:50,983 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 14:26:51,015 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 14:26:51,016 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 14:26:51,024 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 14:26:51,025 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 14:26:52,025 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 14:27:57,518 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:27:57,519 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 14:27:57,519 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:27:57,538 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 14:27:57,562 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 14:27:57,592 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 14:27:57,592 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 14:27:57,601 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 14:27:57,601 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 14:27:58,602 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 14:28:04,552 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:28:04,553 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 14:28:04,553 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:28:04,571 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 14:28:04,597 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 14:28:04,624 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 14:28:04,624 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 14:28:04,635 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 14:28:04,636 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 14:28:05,637 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 14:31:55,211 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:31:55,212 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 14:31:55,212 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:31:55,237 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 14:31:55,263 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 14:31:55,305 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 14:31:55,306 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 14:31:55,317 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 14:31:55,317 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 14:31:56,318 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 14:31:57,445 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:31:57,445 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 14:31:57,446 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:31:57,470 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 14:31:57,492 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 14:31:57,532 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 14:31:57,532 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 14:31:57,543 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 14:31:57,543 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 14:31:58,544 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 14:32:04,473 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/maintainers/all
+2026-09-17 14:32:12,862 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/maintainers?page=1&pageSize=5
+2026-09-17 14:32:12,965 [INFO] [logger.py:41] [API] 收到 POST 请求: http://127.0.0.1:5000/api/maintainers
+2026-09-17 14:32:12,966 [INFO] [logger.py:41] [API] 请求JSON数据: {'barcode': 'NEW_TEST_001', 'maintainer_name': '????', 'is_active': True}
+2026-09-17 14:41:00,224 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/maintainers?page=1&pageSize=3
+2026-09-17 14:47:51,840 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:47:51,843 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:47:52,304 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:47:53,488 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:47:54,125 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:48:12,960 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 14:48:24,559 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:48:24,561 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:48:24,830 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:48:25,821 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:48:26,493 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:48:53,698 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 14:48:53,709 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 647, 'barcode': '1100ee00123612340000403355c4dde45e65', 'issue_reason_id': 96, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 14:48:54,009 [INFO] [logger.py:41] [问题原因] record_id=647 更新：原因ID=96, 状态=normal
+2026-09-17 14:48:54,544 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:48:54,806 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:48:55,039 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:48:59,719 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 14:48:59,719 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 647, 'barcode': '1100ee00123612340000403355c4dde45e65', 'issue_reason_id': 96, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 14:48:59,734 [INFO] [logger.py:41] [问题原因] record_id=647 更新：原因ID=96, 状态=pending
+2026-09-17 14:49:00,066 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:49:00,313 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:49:00,531 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:49:02,003 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 14:49:02,004 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 647, 'barcode': '1100ee00123612340000403355c4dde45e65', 'issue_reason_id': 96, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 14:49:02,015 [INFO] [logger.py:41] [问题原因] record_id=647 更新：原因ID=96, 状态=resolved
+2026-09-17 14:49:02,421 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:49:02,667 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:49:02,915 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:49:34,608 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:49:34,608 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 14:49:34,609 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:49:34,695 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 14:49:34,739 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 14:49:34,786 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 14:49:34,787 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 14:49:34,809 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 14:49:34,809 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 14:49:35,810 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 14:49:36,629 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:49:36,629 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 14:49:36,630 [INFO] [logger.py:41] ======================================================================
+2026-09-17 14:49:36,649 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 14:49:36,676 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 14:49:36,730 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 14:49:36,731 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 14:49:36,752 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 14:49:36,752 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 14:49:37,753 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 14:49:40,347 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:49:40,349 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:49:40,479 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:49:41,249 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:49:41,589 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:49:42,986 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:49:43,000 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:49:43,051 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:49:43,814 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:49:44,047 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:49:45,228 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:49:45,276 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:49:45,309 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:49:46,099 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:49:46,338 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:49:50,387 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:49:50,389 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:49:50,444 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:49:51,162 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:49:51,403 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:49:56,332 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 14:50:00,604 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:50:00,914 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:50:01,236 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:50:01,914 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:50:02,477 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:51:40,599 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:51:40,908 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:51:41,233 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:51:42,731 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:51:43,313 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:53:22,368 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:53:22,375 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:53:22,496 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:53:24,313 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:53:25,079 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:59:42,095 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 14:59:42,098 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 14:59:42,233 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 14:59:42,983 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 14:59:43,327 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 14:59:45,016 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:00:34,072 [INFO] [logger.py:41] [API] 收到 PUT 请求: http://localhost:5000/api/maintainers/1
+2026-09-17 15:00:34,077 [INFO] [logger.py:41] [API] 请求JSON数据: {'maintainer_name': '张三-首检', 'is_active': True}
+2026-09-17 15:00:34,328 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:00:39,204 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:00:49,772 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:00:49,773 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:00:49,813 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:00:50,472 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:00:51,007 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:00:54,103 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:00:54,108 [ERROR] [logger.py:44] [数据库] 查询失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:00:54,110 [ERROR] [logger.py:44] [API] 获取条码统计失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:00:54,409 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:00:54,729 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:00:58,949 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:00:58,951 [ERROR] [logger.py:44] [数据库] 查询失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:00:58,951 [ERROR] [logger.py:44] [API] 获取条码统计失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:00:59,283 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:01:01,029 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:01:01,030 [ERROR] [logger.py:44] [数据库] 查询失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:01:01,031 [ERROR] [logger.py:44] [API] 获取条码统计失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:01:01,362 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:01:02,773 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:01:02,774 [ERROR] [logger.py:44] [数据库] 查询失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:01:02,774 [ERROR] [logger.py:44] [API] 获取条码统计失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:01:03,108 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:01:39,283 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&page=1&pageSize=3
+2026-09-17 15:01:39,284 [ERROR] [logger.py:44] [数据库] 查询失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:01:39,285 [ERROR] [logger.py:44] [API] 获取条码统计失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:01:39,378 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-date?year=2026
+2026-09-17 15:02:04,692 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:02:04,693 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:02:04,693 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:02:04,778 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:02:04,815 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:02:04,856 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:02:04,857 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:02:04,872 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:02:04,872 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:02:05,872 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:02:24,855 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:02:24,856 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:02:24,857 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:02:24,874 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:02:24,895 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:02:24,920 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:02:24,921 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:02:24,932 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:02:24,932 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:02:25,932 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:02:35,434 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:02:38,058 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:02:38,059 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:02:38,060 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:02:38,081 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:02:38,103 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:02:38,128 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:02:38,128 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:02:38,139 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:02:38,139 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:02:39,140 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:02:40,242 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:02:40,242 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:02:40,242 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:02:40,274 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:02:40,296 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:02:40,337 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:02:40,338 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:02:40,351 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:02:40,351 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:02:41,352 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:03:27,202 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:03:27,202 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:03:27,202 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:03:27,222 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:03:27,247 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:03:27,272 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:03:27,273 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:03:27,289 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:03:27,289 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:03:28,290 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:03:29,322 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:03:29,322 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:03:29,322 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:03:29,341 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:03:29,361 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:03:29,395 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:03:29,395 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:03:29,407 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:03:29,407 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:03:30,261 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&page=1&pageSize=2
+2026-09-17 15:03:30,408 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:03:30,541 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-date?year=2026
+2026-09-17 15:05:30,679 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:05:31,718 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:05:31,720 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:05:31,756 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:05:32,456 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:05:32,731 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:05:35,933 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:05:35,935 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:05:36,195 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:05:36,379 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:05:42,192 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?day=&barcode=&page=1&pageSize=20
+2026-09-17 15:05:42,193 [ERROR] [logger.py:44] [数据库] 查询失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:05:42,193 [ERROR] [logger.py:44] [API] 获取条码统计失败: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3")
+2026-09-17 15:05:42,497 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date
+2026-09-17 15:05:42,807 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date
+2026-09-17 15:05:57,072 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=12&day=2&barcode=&page=1&pageSize=20
+2026-09-17 15:05:57,390 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=12
+2026-09-17 15:05:57,449 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:05:57,786 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=12
+2026-09-17 15:05:59,484 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=12&barcode=&page=1&pageSize=20
+2026-09-17 15:05:59,815 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:06:00,061 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=12
+2026-09-17 15:06:04,168 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=7&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:06:04,472 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=7
+2026-09-17 15:06:04,532 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:06:04,891 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=7
+2026-09-17 15:06:09,847 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:06:10,152 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:06:10,846 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:06:11,108 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:06:17,775 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:06:18,091 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:06:18,214 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:06:18,539 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:06:28,632 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=33&pageSize=20
+2026-09-17 15:06:28,964 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=33&pageSize=20
+2026-09-17 15:06:29,069 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:06:29,212 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=33&pageSize=20
+2026-09-17 15:06:29,289 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:06:29,400 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:06:29,429 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:06:29,614 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:06:29,722 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:08:16,795 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:08:16,795 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:08:16,795 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:08:16,869 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:08:16,946 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:08:16,977 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:08:16,978 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:08:16,993 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:08:16,993 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:08:17,994 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:08:26,918 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:08:26,918 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:08:26,919 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:08:26,939 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:08:26,962 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:08:26,987 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:08:26,987 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:08:26,998 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:08:26,999 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:08:27,999 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:08:38,004 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:08:38,006 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:08:38,368 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:08:39,657 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:08:40,227 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:08:52,846 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:08:52,847 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:08:52,847 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:08:52,880 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:08:52,932 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:08:52,992 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:08:52,993 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:08:53,008 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:08:53,009 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:08:54,010 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:08:55,208 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:08:55,208 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:08:55,208 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:08:55,230 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:08:55,253 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:08:55,285 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:08:55,286 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:08:55,297 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:08:55,298 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:08:56,298 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:08:56,470 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&page=1&pageSize=2
+2026-09-17 15:11:11,672 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:11:11,677 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:11:11,888 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:11:14,745 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:11:15,193 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:16:34,285 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:16:34,285 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:16:34,285 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:16:34,424 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:16:34,488 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:16:34,535 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:16:34,536 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:16:34,551 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:16:34,551 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:16:35,552 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:16:36,797 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:16:36,798 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:16:36,798 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:16:36,821 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:16:36,851 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:16:36,913 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:16:36,914 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:16:36,932 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:16:36,933 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:16:37,933 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 15:16:38,124 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?page=1&pageSize=2
+2026-09-17 15:16:38,447 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&page=1&pageSize=2
+2026-09-17 15:16:38,470 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&month=9&page=1&pageSize=2
+2026-09-17 15:17:52,948 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:17:52,951 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:17:53,007 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:17:53,841 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:17:54,165 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:18:10,013 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:18:10,056 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:18:10,105 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:10,822 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:11,055 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:18:12,843 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:12,845 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:18:13,002 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:13,352 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:18:17,587 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:17,900 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date
+2026-09-17 15:18:18,054 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:18,393 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date
+2026-09-17 15:18:23,515 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2025&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:23,821 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2025
+2026-09-17 15:18:23,897 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:24,236 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2025
+2026-09-17 15:18:26,784 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2024&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:27,088 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2024
+2026-09-17 15:18:27,120 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:27,459 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2024
+2026-09-17 15:18:30,136 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:30,446 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:18:31,134 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:31,376 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:18:40,372 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 15:18:40,373 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 646, 'barcode': '1100ee00123612340000403355c4dde45e65', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 15:18:40,404 [INFO] [logger.py:41] [问题原因] record_id=646 更新：原因ID=None, 状态=pending
+2026-09-17 15:18:40,731 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:40,993 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:41,179 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:18:43,155 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 15:18:43,156 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 646, 'barcode': '1100ee00123612340000403355c4dde45e65', 'issue_reason_id': 36, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 15:18:43,168 [INFO] [logger.py:41] [问题原因] record_id=646 更新：原因ID=36, 状态=pending
+2026-09-17 15:18:43,610 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:43,874 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:44,060 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:18:49,264 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 15:18:49,265 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 645, 'barcode': '1100ee00123612340000403355c4dde45e65', 'issue_reason_id': 97, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 15:18:49,276 [INFO] [logger.py:41] [问题原因] record_id=645 更新：原因ID=97, 状态=normal
+2026-09-17 15:18:49,709 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:49,973 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:50,178 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:18:54,406 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 15:18:54,406 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 631, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 99, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 15:18:54,419 [INFO] [logger.py:41] [问题原因] record_id=631 更新：原因ID=99, 状态=normal
+2026-09-17 15:18:54,860 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:18:55,124 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:18:55,296 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:18:59,704 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 15:18:59,704 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 635, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 98, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 15:18:59,722 [INFO] [logger.py:41] [问题原因] record_id=635 更新：原因ID=98, 状态=normal
+2026-09-17 15:19:00,145 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:19:00,408 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:19:00,594 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:19:02,832 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 15:19:02,832 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 636, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 36, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 15:19:02,842 [INFO] [logger.py:41] [问题原因] record_id=636 更新：原因ID=36, 状态=normal
+2026-09-17 15:19:03,280 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:19:03,543 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:19:03,730 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:19:06,217 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 15:19:06,217 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 636, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 36, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 15:19:06,226 [INFO] [logger.py:41] [问题原因] record_id=636 更新：原因ID=36, 状态=resolved
+2026-09-17 15:19:06,555 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:19:06,816 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:19:07,002 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:19:09,024 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 15:19:09,025 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 636, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 36, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 15:19:09,035 [INFO] [logger.py:41] [问题原因] record_id=636 更新：原因ID=36, 状态=normal
+2026-09-17 15:19:09,355 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:19:09,616 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:19:09,786 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 15:19:38,996 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 15:19:45,109 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:19:45,111 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:19:45,372 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:19:45,431 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 15:19:45,725 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:19:45,755 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:19:46,314 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:19:46,620 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:19:46,942 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:19:47,638 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:19:48,222 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:19:52,877 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 15:19:59,803 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:20:20,974 [INFO] [logger.py:41] [API] 收到 PUT 请求: http://localhost:5000/api/maintainers/1
+2026-09-17 15:20:20,975 [INFO] [logger.py:41] [API] 请求JSON数据: {'is_active': False}
+2026-09-17 15:20:21,319 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:20:26,017 [INFO] [logger.py:41] [API] 收到 PUT 请求: http://localhost:5000/api/maintainers/1
+2026-09-17 15:20:26,018 [INFO] [logger.py:41] [API] 请求JSON数据: {'is_active': True}
+2026-09-17 15:20:26,351 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:20:33,522 [INFO] [logger.py:41] [API] 收到 PUT 请求: http://localhost:5000/api/maintainers/11
+2026-09-17 15:20:33,522 [INFO] [logger.py:41] [API] 请求JSON数据: {'is_active': False}
+2026-09-17 15:20:33,853 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:20:37,709 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:20:38,021 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:20:38,346 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:20:39,063 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:20:39,642 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:20:52,337 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:20:58,026 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:20:58,028 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:20:58,291 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:20:58,916 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:20:59,543 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:20:59,825 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=%09+1234567890123&page=1&pageSize=20
+2026-09-17 15:21:00,211 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:21:00,460 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:21:02,623 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=+1234567890123&page=1&pageSize=20
+2026-09-17 15:21:02,955 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:21:03,216 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:21:07,517 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=1234567890123&page=1&pageSize=20
+2026-09-17 15:21:07,853 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:21:08,102 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:21:13,752 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:21:25,937 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:21:25,939 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:21:26,183 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:21:27,202 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:21:28,074 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:21:30,370 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=1234567890123&page=1&pageSize=20
+2026-09-17 15:21:30,747 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:21:31,009 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:21:34,169 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:21:38,549 [INFO] [logger.py:41] [API] 收到 PUT 请求: http://localhost:5000/api/maintainers/11
+2026-09-17 15:21:38,550 [INFO] [logger.py:41] [API] 请求JSON数据: {'is_active': True}
+2026-09-17 15:21:38,812 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 15:21:40,351 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 15:21:40,667 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 15:21:40,991 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 15:21:42,321 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:21:43,064 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:21:44,777 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=1234567890123&page=1&pageSize=20
+2026-09-17 15:21:45,160 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 15:21:45,422 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 15:22:22,406 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?barcode=test&page=1&pageSize=2
+2026-09-17 15:22:22,594 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?barcode=1100ee&page=1&pageSize=2
+2026-09-17 15:54:10,576 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:54:10,579 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 15:54:10,581 [INFO] [logger.py:41] ======================================================================
+2026-09-17 15:54:10,730 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 15:54:10,775 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 15:54:10,883 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 15:54:10,885 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 15:54:10,923 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 15:54:10,924 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 15:54:11,928 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 16:06:43,988 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:06:43,988 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 16:06:43,989 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:06:44,137 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 16:06:44,216 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 16:06:44,280 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 16:06:44,281 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 16:06:44,295 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 16:06:44,295 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 16:06:45,296 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 16:06:46,696 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:06:46,697 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 16:06:46,697 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:06:46,726 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 16:06:46,757 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 16:06:46,807 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 16:06:46,807 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 16:06:46,821 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 16:06:46,821 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 16:06:47,822 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 16:07:10,758 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?page=1&pageSize=1
+2026-09-17 16:07:11,094 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&page=1&pageSize=1
+2026-09-17 16:07:11,131 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-date?year=2026
+2026-09-17 16:07:11,174 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/top-barcodes?limit=3
+2026-09-17 16:07:11,193 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/issue-reasons?page=1&pageSize=3
+2026-09-17 16:07:11,212 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/maintainers/all
+2026-09-17 16:07:11,238 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/tcp/status
+2026-09-17 16:07:11,248 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?page=1&pageSize=1
+2026-09-17 16:07:11,272 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?barcode=1100ee&page=1&pageSize=1
+2026-09-17 16:09:37,665 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:09:37,666 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 16:09:37,667 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:09:37,881 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 16:09:37,967 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 16:09:38,028 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 16:09:38,029 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 16:09:38,054 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 16:09:38,055 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 16:09:39,056 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 16:09:41,752 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:09:41,753 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 16:09:41,753 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:09:41,780 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 16:09:41,817 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 16:09:41,909 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 16:09:41,910 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 16:09:41,925 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 16:09:41,925 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 16:09:42,926 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 16:11:08,052 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:11:08,060 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/maintainers/all
+2026-09-17 16:11:08,160 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:11:09,203 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:11:10,203 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:19:50,740 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:19:50,743 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:19:50,743 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:19:50,749 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:19:50,960 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:19:50,983 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:19:52,037 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:19:52,413 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:19:53,244 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:19:53,578 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:20:06,418 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:20:06,419 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:20:06,667 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:20:07,759 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:20:08,153 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:20:23,711 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:20:23,712 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:20:23,983 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:20:25,046 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:20:25,450 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:20:48,793 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:20:48,794 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 16:20:49,037 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:20:49,270 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026
+2026-09-17 16:20:51,412 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 16:20:54,456 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 16:20:59,517 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:20:59,829 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:21:00,153 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:21:00,735 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:21:01,251 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:21:02,377 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all
+2026-09-17 16:21:07,678 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:21:07,680 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:21:07,939 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:21:08,542 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:21:09,070 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:21:09,382 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=1112223334445&page=1&pageSize=20
+2026-09-17 16:21:09,772 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:21:10,012 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:21:15,867 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=1112223334445&page=1&pageSize=20
+2026-09-17 16:21:16,200 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:21:16,462 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:22:04,164 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=1112223334445&page=1&pageSize=20
+2026-09-17 16:22:04,499 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:22:04,763 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:23:14,972 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&month=9&barcode=111222&page=1&pageSize=5
+2026-09-17 16:23:15,258 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&month=9&page=1&pageSize=1
+2026-09-17 16:23:15,281 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&barcode=1100ee&page=1&pageSize=1
+2026-09-17 16:23:16,715 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:23:16,716 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:23:16,752 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:23:18,014 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:23:18,920 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:25:14,455 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-barcode?year=2026&month=9&barcode=1100ee&page=1&pageSize=1
+2026-09-17 16:25:37,008 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:25:37,009 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:25:37,078 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:25:38,206 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:25:38,539 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:25:52,793 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:25:52,794 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:25:52,999 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:25:54,245 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:25:54,510 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:27:56,204 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:27:56,399 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1:5000/api/stats/by-date?year=2026
+2026-09-17 16:28:13,156 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:28:13,158 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:28:13,464 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:28:13,478 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:28:13,832 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:28:15,014 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:28:15,856 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:28:28,382 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:28:42,733 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:29:02,866 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:29:02,866 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:29:02,948 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:29:04,045 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:29:04,363 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:29:23,594 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:29:23,596 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/maintainers/all
+2026-09-17 16:29:23,753 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:29:24,562 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:29:24,891 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:31:32,815 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:31:32,817 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/maintainers/all
+2026-09-17 16:31:32,876 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:31:33,715 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:31:34,006 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:31:56,391 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:31:56,502 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:31:56,545 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:32:13,532 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:32:13,663 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:32:13,706 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:32:18,699 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=1100ee&page=1&pageSize=20
+2026-09-17 16:32:18,835 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:32:18,885 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:32:36,230 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:32:36,382 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:32:36,428 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:32:42,821 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=1100ee&page=1&pageSize=20
+2026-09-17 16:32:42,933 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:32:42,974 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:33:02,549 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=1100ee&page=1&pageSize=20
+2026-09-17 16:33:02,659 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:33:02,696 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:35:12,636 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-barcode?year=2026&month=9&day=&barcode=1100ee&page=1&pageSize=20
+2026-09-17 16:35:12,765 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/top-barcodes?limit=10
+2026-09-17 16:35:12,806 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/stats/by-date?year=2026&month=9
+2026-09-17 16:35:20,546 [INFO] [logger.py:41] [API] 收到 GET 请求: http://127.0.0.1/api/issue-reasons?page=1&pageSize=20
+2026-09-17 16:37:06,559 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:37:06,565 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:37:06,798 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:37:14,365 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:37:14,367 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 16:37:14,369 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:37:14,679 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 16:37:14,748 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 16:37:14,840 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 16:37:14,842 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 16:37:14,869 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 16:37:14,869 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 16:37:15,177 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:37:15,870 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 16:37:17,287 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:37:17,749 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:37:17,750 [INFO] [logger.py:41] 集成服务启动中...
+2026-09-17 16:37:17,751 [INFO] [logger.py:41] ======================================================================
+2026-09-17 16:37:17,789 [INFO] [logger.py:41] [数据库] 数据库 tcp_data 已就绪
+2026-09-17 16:37:17,830 [INFO] [logger.py:41] [数据库] 数据表初始化完成
+2026-09-17 16:37:17,893 [INFO] [logger.py:41] [数据库] 异步写入线程启动
+2026-09-17 16:37:17,894 [INFO] [logger.py:41] [数据库] 初始化成功，连接池大小: 10
+2026-09-17 16:37:17,929 [INFO] [logger.py:41] [系统] TCP服务器线程已启动
+2026-09-17 16:37:17,929 [INFO] [logger.py:41] [TCP] 服务器启动在 10.106.0.233:18080
+2026-09-17 16:37:18,938 [INFO] [logger.py:41] [系统] HTTP API服务器启动在 0.0.0.0:5000
+2026-09-17 16:37:27,365 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 16:37:27,379 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 632, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': 96, 'custom_reason': '', 'issue_status': 'normal'}
+2026-09-17 16:37:27,432 [INFO] [logger.py:41] [问题原因] record_id=632 更新：原因ID=96, 状态=normal
+2026-09-17 16:37:27,906 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:37:28,170 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:37:28,372 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:37:31,442 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 16:37:31,443 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 633, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'pending'}
+2026-09-17 16:37:31,458 [INFO] [logger.py:41] [问题原因] record_id=633 更新：原因ID=None, 状态=pending
+2026-09-17 16:37:31,778 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:37:32,073 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:37:32,239 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:37:33,505 [INFO] [logger.py:41] [API] 收到 POST 请求: http://localhost:5000/api/issue/update
+2026-09-17 16:37:33,506 [INFO] [logger.py:41] [API] 请求JSON数据: {'record_id': 633, 'barcode': '1100ee00123456781414141414142323e6cf', 'issue_reason_id': None, 'custom_reason': '', 'issue_status': 'resolved'}
+2026-09-17 16:37:33,517 [INFO] [logger.py:41] [问题原因] record_id=633 更新：原因ID=None, 状态=resolved
+2026-09-17 16:37:33,844 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:37:34,092 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:37:34,308 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:37:40,727 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?page=1&pageSize=20
+2026-09-17 16:37:43,282 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/issue-reasons?is_active=true&page=1&pageSize=1000
+2026-09-17 16:37:43,282 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers/all
+2026-09-17 16:37:43,543 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-barcode?year=2026&month=9&day=&barcode=&page=1&pageSize=20
+2026-09-17 16:37:44,188 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/top-barcodes?limit=10
+2026-09-17 16:37:44,765 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/stats/by-date?year=2026&month=9
+2026-09-17 16:37:46,219 [INFO] [logger.py:41] [API] 收到 GET 请求: http://localhost:5000/api/maintainers?page=1&pageSize=20&is_active=all

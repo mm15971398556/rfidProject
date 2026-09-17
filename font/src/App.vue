@@ -27,6 +27,10 @@
               <el-icon><Setting /></el-icon>
               <span>问题原因管理</span>
             </el-menu-item>
+            <el-menu-item index="/maintainer-config">
+              <el-icon><User /></el-icon>
+              <span>维护人配置</span>
+            </el-menu-item>
           </el-menu>
         </nav>
       </div>
@@ -42,7 +46,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { DataLine, DataBoard, Setting } from '@element-plus/icons-vue'
+import { DataLine, DataBoard, Setting, User } from '@element-plus/icons-vue'
 
 const route = useRoute()
 

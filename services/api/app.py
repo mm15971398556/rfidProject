@@ -5,6 +5,7 @@ from config import Config
 from api.stats_routes import register_stats_routes
 from api.issue_routes import register_issue_routes
 from api.tcp_routes import register_tcp_routes
+from api.maintainer_routes import register_maintainer_routes
 from utils.logger import log
 
 def create_app(db_manager, tcp_server):
@@ -23,5 +24,6 @@ def create_app(db_manager, tcp_server):
     app = register_stats_routes(app, db_manager)
     app = register_issue_routes(app, db_manager)
     app = register_tcp_routes(app, db_manager, tcp_server)
+    app = register_maintainer_routes(app, db_manager)
     
     return app

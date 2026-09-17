@@ -25,14 +25,8 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    minify: 'terser',
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vue: ['vue', 'element-plus'],
-          echarts: ['echarts']
-        }
-      }
-    }
+    minify: false,
+    // 关闭 esbuild 的 build-time 转译（这台机器 esbuild native binary 有 bug）
+    target: 'esnext'
   }
 })

@@ -91,16 +91,17 @@ def register_issue_routes(app, db_manager):
 
     @app.route('/api/issue/update', methods=['POST'])
     def update_issue_reason():
-        """更新条码问题原因"""
+        """更新条码问题原因（优先按 record_id 改单条，否则按 barcode 改全部）"""
         try:
             data = request.get_json()
+            record_id = data.get('record_id')
             barcode = data.get('barcode')
             issue_reason_id = data.get('issue_reason_id')
             custom_reason = data.get('custom_reason', '')
             issue_status = data.get('issue_status', 'normal')
             
-            if not barcode:
-                return jsonify({'success': False, 'message': '条码不能为空'}), 400
+            if not record_id and not barcode:
+                return jsonify({'success': False, 'message': 'record_id 或 barcode 不能为空'}), 400
             
             # 获取问题原因名称
             issue_reason_text = ''
@@ -113,35 +114,51 @@ def register_issue_routes(app, db_manager):
             if custom_reason:
                 issue_reason_text = custom_reason
             
-            # 更新所有该条码记录的问题原因
-            sql = """
-                UPDATE received_data 
-                SET issue_reason_id = %s,
-                    issue_reason = %s,
-                    custom_reason = %s,
-                    issue_status = %s,
-                    issue_updated_time = NOW()
-                WHERE data_content = %s 
-                AND data_type = 'text'
-            """
+            # 更新问题原因
+            if record_id:
+                # 优先：按 record_id 只改这一条记录
+                sql = """
+                    UPDATE received_data 
+                    SET issue_reason_id = %s,
+                        issue_reason = %s,
+                        custom_reason = %s,
+                        issue_status = %s,
+                        issue_updated_time = NOW()
+                    WHERE id = %s
+                """
+                result = db_manager.execute(sql, [issue_reason_id, issue_reason_text, custom_reason, issue_status, record_id])
+                scope_desc = f"record_id={record_id}"
+            else:
+                # fallback：按 barcode 改所有同条码记录
+                sql = """
+                    UPDATE received_data 
+                    SET issue_reason_id = %s,
+                        issue_reason = %s,
+                        custom_reason = %s,
+                        issue_status = %s,
+                        issue_updated_time = NOW()
+                    WHERE data_content = %s
+                """
+                result = db_manager.execute(sql, [issue_reason_id, issue_reason_text, custom_reason, issue_status, barcode])
+                scope_desc = f"barcode={barcode} (共 {result or 0} 条)"
             
-            result = db_manager.execute(sql, [issue_reason_id, issue_reason_text, custom_reason, issue_status, barcode])
-            
-            if result is not None:
-                log.info(f"[问题原因] 条码 {barcode} 的问题原因已更新：ID={issue_reason_id}, 原因={issue_reason_text}, 状态={issue_status}")
+            if result and result > 0:
+                log.info(f"[问题原因] {scope_desc} 更新：原因ID={issue_reason_id}, 状态={issue_status}")
                 return jsonify({
                     'success': True, 
                     'message': '问题原因更新成功',
                     'data': {
+                        'record_id': record_id,
                         'barcode': barcode,
                         'issue_reason_id': issue_reason_id,
                         'issue_reason': issue_reason_text,
                         'custom_reason': custom_reason,
-                        'issue_status': issue_status
+                        'issue_status': issue_status,
+                        'updated_rows': result
                     }
                 })
             else:
-                return jsonify({'success': False, 'message': '更新失败'}), 500
+                return jsonify({'success': False, 'message': f'更新失败：未找到匹配的记录'}), 400
                 
         except Exception as e:
             log.error(f"[API] 更新问题原因失败：{e}")
@@ -165,8 +182,7 @@ def register_issue_routes(app, db_manager):
                     r.issue_status,
                     r.issue_updated_time
                 FROM received_data r
-                WHERE r.data_content = %s 
-                AND r.data_type = 'text'
+                WHERE r.data_content = %s
                 ORDER BY r.issue_updated_time DESC
                 LIMIT 1
             """

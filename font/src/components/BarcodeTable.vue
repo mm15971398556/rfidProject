@@ -147,6 +147,16 @@ const props = defineProps({
       total: 0,
       totalPages: 0
     })
+  },
+  // 当前查询条件（导出全量用）
+  searchParams: {
+    type: Object,
+    default: () => ({ year: '', month: '', day: '', barcode: '' })
+  },
+  // 维护人映射 {barcode: maintainer_name}
+  maintainerMap: {
+    type: Object,
+    default: () => ({})
   }
 })
 
@@ -246,6 +256,7 @@ const handleIssueReasonChange = async (row, reasonId) => {
   
   try {
     const response = await api.updateBarcodeIssueReason({
+      record_id: row.record_id,
       barcode: row.barcode,
       issue_reason_id: reasonId,
       custom_reason: '',
@@ -286,6 +297,7 @@ const handleIssueStatusChange = async (row, status) => {
   
   try {
     const response = await api.updateBarcodeIssueReason({
+      record_id: row.record_id,
       barcode: row.barcode,
       issue_reason_id: row.issue_reason_id,
       custom_reason: '',
@@ -329,29 +341,63 @@ const handleCurrentChange = (page) => {
   emit('page-change', page)
 }
 
-// 导出功能
-const handleExport = () => {
-  const csvContent = [
-    ['条码', '扫描次数', '设备数', '扫描时间', '设备IP', '维护人', '问题原因', '问题状态'].join(','),
-    ...processedData.value.map(row => [
-      row.barcode,
-      row.scan_count,
-      row.device_count,
-      row.scan_time,
-      row.devices || '未知',
-      getMaintainer(row.barcode),
-      row.issue_reason || '',
-      row.issue_status
-    ].join(','))
-  ].join('\n')
+// 导出功能 —— 导出当前查询条件下的全部结果
+const exporting = ref(false)
+const handleExport = async () => {
+  if (exporting.value) return
+  if (!props.data.length && props.pagination.total === 0) {
+    ElMessage.warning('没有可导出的数据')
+    return
+  }
   
-  const blob = new Blob(['\ufeff' + csvContent], { type: 'text/csv;charset=utf-8' })
-  const url = URL.createObjectURL(blob)
-  const link = document.createElement('a')
-  link.href = url
-  link.download = `条码统计_${dayjs().format('YYYY-MM-DD')}.csv`
-  link.click()
-  URL.revokeObjectURL(url)
+  exporting.value = true
+  try {
+    // 用当前搜索条件拉全量（不分页）
+    const result = await api.getBarcodeStats({
+      year: props.searchParams.year,
+      month: props.searchParams.month,
+      day: props.searchParams.day,
+      barcode: props.searchParams.barcode,
+      page: 1,
+      pageSize: 100000  // 足够大，一把拉完
+    })
+    
+    let allRows = props.data
+    if (result.success && result.data) {
+      allRows = result.data
+    }
+    
+    const exportRows = processTableData(allRows, issueReasons.value)
+    
+    const csvContent = [
+      ['条码', '扫描次数', '设备数', '扫描时间', '设备IP', '维护人', '问题原因', '问题状态'].join(','),
+      ...exportRows.map(row => [
+        row.barcode,
+        row.scan_count,
+        row.device_count,
+        row.scan_time,
+        row.devices || '未知',
+        getMaintainer(row.barcode),
+        row.issue_reason || '',
+        row.issue_status
+      ].join(','))
+    ].join('\n')
+    
+    const blob = new Blob(['\ufeff' + csvContent], { type: 'text/csv;charset=utf-8' })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    link.href = url
+    link.download = `条码统计_${dayjs().format('YYYY-MM-DD')}.csv`
+    link.click()
+    URL.revokeObjectURL(url)
+    
+    ElMessage.success(`已导出 ${exportRows.length} 条记录`)
+  } catch (error) {
+    console.error('导出失败:', error)
+    ElMessage.error('导出失败')
+  } finally {
+    exporting.value = false
+  }
 }
 
 // 工具函数
@@ -373,30 +419,7 @@ const getCountType = (count) => {
 }
 
 const getMaintainer = (barcode) => {
-  const maintainerConfig = {
-    "TEST_BARCODE_000": "张三",
-    "TEST_BARCODE_001": "李四", 
-    "TEST_BARCODE_002": "王五",
-    "TEST_BARCODE_003": "赵六",
-    "TEST_BARCODE_004": "钱七",
-    "TEST_BARCODE_005": "孙八",
-    "TEST_BARCODE_006": "周九",
-    "TEST_BARCODE_007": "吴十",
-    "TEST_BARCODE_008": "郑十一",
-    "TEST_BARCODE_009": "王十二",
-    "1234567890123": "张三",
-    "9876543210987": "李四",
-    "1112223334445": "王五",
-    "5556667778889": "赵六",
-    "9998887776665": "钱七",
-    "4443332221110": "孙八",
-    "7778889990001": "周九",
-    "2223334445556": "吴十",
-    "8889990001112": "郑十一",
-    "3334445556667": "王十二"
-  }
-  
-  return maintainerConfig[barcode] || '未分配'
+  return props.maintainerMap[barcode] || '未分配'
 }
 
 // 组件挂载时加载问题原因

@@ -18,16 +18,21 @@ def register_stats_routes(app, db_manager):
             page_size = int(request.args.get('pageSize', 20))
             
             # 构建条件和参数
-            conditions = ["r.data_type = 'text'"]
+            conditions = []
             params = []
-            
-            if year and month:
-                if day:
-                    conditions.append("DATE(r.receive_time) = %s")
-                    params.append(f"{year}-{month:>02}-{day:>02}")
-                else:
-                    conditions.append("YEAR(r.receive_time) = %s AND MONTH(r.receive_time) = %s")
-                    params.extend([year, month])
+
+            # 支持三种粒度：仅年 / 年+月 / 年+月+日
+            if year:
+                conditions.append("YEAR(r.receive_time) = %s")
+                params.append(year)
+
+            if month:
+                conditions.append("MONTH(r.receive_time) = %s")
+                params.append(int(month))
+
+            if day:
+                conditions.append("DAY(r.receive_time) = %s")
+                params.append(int(day))
             
             if barcode:
                 conditions.append("r.data_content LIKE %s")
@@ -37,7 +42,7 @@ def register_stats_routes(app, db_manager):
             count_sql = f"""
                 SELECT COUNT(*) as total
                 FROM received_data r
-                WHERE {' AND '.join(conditions)}
+                WHERE 1=1 {'AND ' + ' AND '.join(conditions) if conditions else ''}
             """
             
             count_result = db_manager.query(count_sql, params)
@@ -47,11 +52,22 @@ def register_stats_routes(app, db_manager):
             unique_barcode_sql = f"""
                 SELECT COUNT(DISTINCT r.data_content) as unique_barcodes
                 FROM received_data r
-                WHERE {' AND '.join(conditions)}
+                WHERE 1=1 {'AND ' + ' AND '.join(conditions) if conditions else ''}
             """
             
             unique_barcode_result = db_manager.query(unique_barcode_sql, params)
             unique_barcodes = unique_barcode_result[0]['unique_barcodes'] if unique_barcode_result else 0
+
+            # 查询去重后的设备总数（JOIN clients 才能拿到 client_ip）
+            unique_device_sql = f"""
+                SELECT COUNT(DISTINCT c.client_ip) as unique_devices
+                FROM received_data r
+                JOIN clients c ON r.client_id = c.id
+                WHERE 1=1 {'AND ' + ' AND '.join(conditions) if conditions else ''}
+            """
+
+            unique_device_result = db_manager.query(unique_device_sql, params)
+            unique_devices = unique_device_result[0]['unique_devices'] if unique_device_result else 0
             
             # 查询分页数据（按单条记录统计）
             offset = (page - 1) * page_size
@@ -78,7 +94,7 @@ def register_stats_routes(app, db_manager):
                 FROM received_data r
                 JOIN clients c ON r.client_id = c.id
                 LEFT JOIN issue_reasons ir ON r.issue_reason_id = ir.id
-                WHERE {' AND '.join(conditions)}
+                WHERE 1=1 {'AND ' + ' AND '.join(conditions) if conditions else ''}
                 ORDER BY r.receive_time DESC
                 LIMIT %s OFFSET %s
             """
@@ -104,7 +120,8 @@ def register_stats_routes(app, db_manager):
                     'pageSize': page_size,
                     'total': total,
                     'totalPages': (total + page_size - 1) // page_size,
-                    'uniqueBarcodes': unique_barcodes  # 去重后的条码总数
+                    'uniqueBarcodes': unique_barcodes,  # 去重后的条码总数
+                    'uniqueDevices': unique_devices     # 去重后的设备总数
                 }
             })
             
@@ -115,31 +132,54 @@ def register_stats_routes(app, db_manager):
 
     @app.route('/api/stats/by-date', methods=['GET'])
     def get_stats_by_date():
-        """按日期获取统计数据（基于单条扫描记录统计）"""
+        """按日期获取统计数据（支持仅年 → 按月聚合；年+月 → 按日聚合）"""
         try:
             year = request.args.get('year')
             month = request.args.get('month')
-            
-            if not year or not month:
-                return jsonify({'success': False, 'message': '年份和月份不能为空'}), 400
-            
-            sql = """
-                SELECT 
-                    DATE(r.receive_time) as date,
-                    COUNT(*) as total_count,
-                    COUNT(DISTINCT r.data_content) as barcode_count,
-                    COUNT(DISTINCT c.client_ip) as device_count
-                FROM received_data r
-                JOIN clients c ON r.client_id = c.id
-                WHERE r.data_type = 'text'
-                    AND YEAR(r.receive_time) = %s
-                    AND MONTH(r.receive_time) = %s
-                GROUP BY DATE(r.receive_time)
-                ORDER BY date
-            """
-            
-            results = db_manager.query(sql, [year, month])
-            
+
+            if not year:
+                return jsonify({'success': False, 'message': '年份不能为空'}), 400
+
+            if month:
+                # 年+月 → 按日聚合
+                sql = """
+                    SELECT 
+                        DATE(r.receive_time) as date,
+                        COUNT(*) as total_count,
+                        COUNT(DISTINCT r.data_content) as barcode_count,
+                        COUNT(DISTINCT c.client_ip) as device_count
+                    FROM received_data r
+                    JOIN clients c ON r.client_id = c.id
+                    WHERE YEAR(r.receive_time) = %s
+                        AND MONTH(r.receive_time) = %s
+                    GROUP BY DATE(r.receive_time)
+                    ORDER BY date
+                """
+                results = db_manager.query(sql, [year, int(month)])
+                # 格式化日期
+                for row in results:
+                    if row['date']:
+                        row['date'] = row['date'].strftime('%Y-%m-%d')
+            else:
+                # 仅年 → 按月聚合
+                sql = """
+                    SELECT 
+                        MONTH(r.receive_time) as month,
+                        COUNT(*) as total_count,
+                        COUNT(DISTINCT r.data_content) as barcode_count,
+                        COUNT(DISTINCT c.client_ip) as device_count
+                    FROM received_data r
+                    JOIN clients c ON r.client_id = c.id
+                    WHERE YEAR(r.receive_time) = %s
+                    GROUP BY MONTH(r.receive_time)
+                    ORDER BY month
+                """
+                results = db_manager.query(sql, [year])
+                # 格式化 month
+                for row in results:
+                    if row['month']:
+                        row['month'] = int(row['month'])
+
             return jsonify({
                 'success': True,
                 'data': results
@@ -161,7 +201,6 @@ def register_stats_routes(app, db_manager):
                     r.data_content as barcode,
                     COUNT(*) as scan_count
                 FROM received_data r
-                WHERE r.data_type = 'text'
                 GROUP BY r.data_content
                 ORDER BY scan_count DESC
                 LIMIT %s

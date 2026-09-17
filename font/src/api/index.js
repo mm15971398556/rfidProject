@@ -110,10 +110,32 @@ export const issueApi = {
   }
 }
 
+// 条码维护人配置相关API
+export const maintainerApi = {
+  // 分页查询
+  getList(params) {
+    return api.get('/maintainers', { params })
+  },
+  // 全量字典 {barcode: maintainer_name}
+  getAll() {
+    return api.get('/maintainers/all')
+  },
+  create(data) {
+    return api.post('/maintainers', data)
+  },
+  update(id, data) {
+    return api.put(`/maintainers/${id}`, data)
+  },
+  delete(id) {
+    return api.delete(`/maintainers/${id}`)
+  }
+}
+
 // 默认导出所有API方法
 const apiMethods = {
   ...statsApi,
-  ...issueApi
+  ...issueApi,
+  maintainerApi
 }
 
 export default apiMethods

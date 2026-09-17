@@ -39,6 +39,8 @@
       :data="tableData"
       :loading="loading"
       :pagination="pagination"
+      :search-params="searchParams"
+      :maintainer-map="maintainerMap"
       @page-change="handlePageChange"
       @size-change="handleSizeChange"
       @view-detail="handleViewDetail"
@@ -54,7 +56,22 @@ import SearchForm from '../components/SearchForm.vue'
 import StatCards from '../components/StatCards.vue'
 import Charts from '../components/Charts.vue'
 import BarcodeTable from '../components/BarcodeTable.vue'
-import { statsApi } from '../api'
+import { statsApi, maintainerApi } from '../api'
+
+// 维护人映射（从后端拉取）
+const maintainerMap = ref({})
+
+// 加载维护人映射
+const loadMaintainerMap = async () => {
+  try {
+    const res = await maintainerApi.getAll()
+    if (res.success && res.data) {
+      maintainerMap.value = res.data
+    }
+  } catch (e) {
+    console.warn('加载维护人映射失败，将显示未分配', e)
+  }
+}
 
 // 加载状态
 const loading = ref(false)
@@ -156,15 +173,7 @@ const fetchData = async () => {
       // 计算统计信息（基于单条扫描记录）
       stats.totalBarcodes = result.pagination.uniqueBarcodes  // 使用后端返回的去重条码数
       stats.totalScans = result.pagination.total              // 总扫描次数等于总记录数
-      
-      // 计算设备数（基于单条记录）
-      const devices = new Set()
-      result.data.forEach(item => {
-        if (item.devices) {
-          devices.add(item.devices)  // 每条记录对应一个设备IP
-        }
-      })
-      stats.totalDevices = devices.size
+      stats.totalDevices = result.pagination.uniqueDevices    // 后端返回的去重设备数
       
       // 计算最频繁扫描的条码
       const barcodeCounts = {}
@@ -245,20 +254,21 @@ const updateBarcodeChart = (data) => {
 
 // 更新日期图表
 const updateDateChart = (data) => {
+  // 后端返回: date/month, total_count, barcode_count, device_count
   dateChartData.value = {
-    xAxis: data.map(item => item.scan_date || item.scan_month),
+    xAxis: data.map(item => item.date || item.month),
     series: [
       {
         name: '条码数',
-        data: data.map(item => item.unique_barcodes)
+        data: data.map(item => item.barcode_count)
       },
       {
         name: '扫描次数',
-        data: data.map(item => item.total_scans)
+        data: data.map(item => item.total_count)
       },
       {
         name: '设备数',
-        data: data.map(item => item.unique_devices)
+        data: data.map(item => item.device_count)
       }
     ]
   }
@@ -298,30 +308,6 @@ watch(
 
 // 更新新的图表数据
 const updateNewCharts = (data) => {
-  // 导入维护人员配置
-  const maintainerConfig = {
-    "TEST_BARCODE_000": "张三",
-    "TEST_BARCODE_001": "李四", 
-    "TEST_BARCODE_002": "王五",
-    "TEST_BARCODE_003": "赵六",
-    "TEST_BARCODE_004": "钱七",
-    "TEST_BARCODE_005": "孙八",
-    "TEST_BARCODE_006": "周九",
-    "TEST_BARCODE_007": "吴十",
-    "TEST_BARCODE_008": "郑十一",
-    "TEST_BARCODE_009": "王十二",
-    "1234567890123": "张三",
-    "9876543210987": "李四",
-    "1112223334445": "王五",
-    "5556667778889": "赵六",
-    "9998887776665": "钱七",
-    "4443332221110": "孙八",
-    "7778889990001": "周九",
-    "2223334445556": "吴十",
-    "8889990001112": "郑十一",
-    "3334445556667": "王十二"
-  }
-  
   // 1. 问题原因分布饼图 - 基于单条数据统计
   const issueReasonCounts = {}
   data.forEach(item => {
@@ -346,7 +332,7 @@ const updateNewCharts = (data) => {
   // 2. 维护人员分布饼图 - 基于单条数据统计
   const maintainerCounts = {}
   data.forEach(item => {
-    const maintainer = maintainerConfig[item.barcode] || '未分配'
+    const maintainer = maintainerMap.value[item.barcode] || '未分配'
     maintainerCounts[maintainer] = (maintainerCounts[maintainer] || 0) + 1
   })
   
@@ -379,7 +365,8 @@ const updateNewCharts = (data) => {
 }
 
 // 初始化
-onMounted(() => {
+onMounted(async () => {
+  await loadMaintainerMap()
   fetchData()
 })
 </script>

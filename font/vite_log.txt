@@ -1,0 +1,230 @@
+﻿
+  [32m[1mVITE[22m v4.5.14[39m  [2mready in [0m[1m995[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3000[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+node : X [ERROR] Could not read from file: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\
+customParseFormat.js
+At line:15 char:3081
++ ... esktop\code\frontend; node node_modules/vite/bin/vite.js 2>&1 | Out-F ...
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (X [ERROR] Could...mParseFormat.js:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+    node_modules/element-plus/es/components/time-select/src/time-select.vue2.mjs:4:30:
+      4 │ import customParseFormat from 'dayjs/plugin/customParseFormat.js';
+        ╵                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] Could not read from file: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\localeD
+ata.js
+
+    node_modules/element-plus/es/components/calendar/src/use-date-table.mjs:3:23:
+      3 │ import localeData from 'dayjs/plugin/localeData.js';
+        ╵                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] Could not read from file: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\weekYea
+r.js
+
+    node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:8:21:
+      8 │ import weekYear from 'dayjs/plugin/weekYear.js';
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] Could not read from file: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\dayOfYe
+ar.js
+
+    node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:9:22:
+      9 │ import dayOfYear from 'dayjs/plugin/dayOfYear.js';
+        ╵                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] Could not read from file: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\isSameO
+rBefore.js
+
+    node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:11:27:
+      11 │ import isSameOrBefore from 'dayjs/plugin/isSameOrBefore.js';
+         ╵                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] Could not read from file: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\advance
+dFormat.js
+
+    node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:5:27:
+      5 │ import advancedFormat from 'dayjs/plugin/advancedFormat.js';
+        ╵                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] Could not read from file: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\weekOfY
+ear.js
+
+    node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:7:23:
+      7 │ import weekOfYear from 'dayjs/plugin/weekOfYear.js';
+        ╵                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] Could not read from file: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\isSameO
+rAfter.js
+
+    node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:10:26:
+      10 │ import isSameOrAfter from 'dayjs/plugin/isSameOrAfter.js';
+         ╵                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+C:\Users\whd15\Desktop\code\frontend\node_modules\vite\node_modules\esbuild\lib\main.js:1649
+  let error = new Error(`${text}${summary}`);
+              ^
+
+Error: Build failed with 8 errors:
+node_modules/element-plus/es/components/calendar/src/use-date-table.mjs:3:23: ERROR: Could not read from file: C:\Users
+\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\localeData.js
+node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:5:27: ERROR: Could not read from fi
+le: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\advancedFormat.js
+node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:7:23: ERROR: Could not read from fi
+le: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\weekOfYear.js
+node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:8:21: ERROR: Could not read from fi
+le: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\weekYear.js
+node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs:9:22: ERROR: Could not read from fi
+le: C:\Users\whd15\Desktop\code\frontend\node_modules\dayjs\esm\index.js\plugin\dayOfYear.js
+...
+    at failureErrorWithLog (C:\Users\whd15\Desktop\code\frontend\node_modules\vite\node_modules\esbuild\lib\main.js:164
+9:15)
+    at C:\Users\whd15\Desktop\code\frontend\node_modules\vite\node_modules\esbuild\lib\main.js:1058:25
+    at C:\Users\whd15\Desktop\code\frontend\node_modules\vite\node_modules\esbuild\lib\main.js:1525:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  errors: [
+    {
+      detail: undefined,
+      id: '',
+      location: {
+        column: 23,
+        file: 'node_modules/element-plus/es/components/calendar/src/use-date-table.mjs',
+        length: 28,
+        line: 3,
+        lineText: "import localeData from 'dayjs/plugin/localeData.js';",
+        namespace: '',
+        suggestion: ''
+      },
+      notes: [],
+      pluginName: '',
+      text: 'Could not read from file: C:\\Users\\whd15\\Desktop\\code\\frontend\\node_modules\\dayjs\\esm\\index.js\\p
+lugin\\localeData.js'
+    },
+    {
+      detail: undefined,
+      id: '',
+      location: {
+        column: 27,
+        file: 'node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs',
+        length: 32,
+        line: 5,
+        lineText: "import advancedFormat from 'dayjs/plugin/advancedFormat.js';",
+        namespace: '',
+        suggestion: ''
+      },
+      notes: [],
+      pluginName: '',
+      text: 'Could not read from file: C:\\Users\\whd15\\Desktop\\code\\frontend\\node_modules\\dayjs\\esm\\index.js\\p
+lugin\\advancedFormat.js'
+    },
+    {
+      detail: undefined,
+      id: '',
+      location: {
+        column: 23,
+        file: 'node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs',
+        length: 28,
+        line: 7,
+        lineText: "import weekOfYear from 'dayjs/plugin/weekOfYear.js';",
+        namespace: '',
+        suggestion: ''
+      },
+      notes: [],
+      pluginName: '',
+      text: 'Could not read from file: C:\\Users\\whd15\\Desktop\\code\\frontend\\node_modules\\dayjs\\esm\\index.js\\p
+lugin\\weekOfYear.js'
+    },
+    {
+      detail: undefined,
+      id: '',
+      location: {
+        column: 21,
+        file: 'node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs',
+        length: 26,
+        line: 8,
+        lineText: "import weekYear from 'dayjs/plugin/weekYear.js';",
+        namespace: '',
+        suggestion: ''
+      },
+      notes: [],
+      pluginName: '',
+      text: 'Could not read from file: C:\\Users\\whd15\\Desktop\\code\\frontend\\node_modules\\dayjs\\esm\\index.js\\p
+lugin\\weekYear.js'
+    },
+    {
+      detail: undefined,
+      id: '',
+      location: {
+        column: 22,
+        file: 'node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs',
+        length: 27,
+        line: 9,
+        lineText: "import dayOfYear from 'dayjs/plugin/dayOfYear.js';",
+        namespace: '',
+        suggestion: ''
+      },
+      notes: [],
+      pluginName: '',
+      text: 'Could not read from file: C:\\Users\\whd15\\Desktop\\code\\frontend\\node_modules\\dayjs\\esm\\index.js\\p
+lugin\\dayOfYear.js'
+    },
+    {
+      detail: undefined,
+      id: '',
+      location: {
+        column: 26,
+        file: 'node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs',
+        length: 31,
+        line: 10,
+        lineText: "import isSameOrAfter from 'dayjs/plugin/isSameOrAfter.js';",
+        namespace: '',
+        suggestion: ''
+      },
+      notes: [],
+      pluginName: '',
+      text: 'Could not read from file: C:\\Users\\whd15\\Desktop\\code\\frontend\\node_modules\\dayjs\\esm\\index.js\\p
+lugin\\isSameOrAfter.js'
+    },
+    {
+      detail: undefined,
+      id: '',
+      location: {
+        column: 27,
+        file: 'node_modules/element-plus/es/components/date-picker-panel/src/date-picker-panel.mjs',
+        length: 32,
+        line: 11,
+        lineText: "import isSameOrBefore from 'dayjs/plugin/isSameOrBefore.js';",
+        namespace: '',
+        suggestion: ''
+      },
+      notes: [],
+      pluginName: '',
+      text: 'Could not read from file: C:\\Users\\whd15\\Desktop\\code\\frontend\\node_modules\\dayjs\\esm\\index.js\\p
+lugin\\isSameOrBefore.js'
+    },
+    {
+      detail: undefined,
+      id: '',
+      location: {
+        column: 30,
+        file: 'node_modules/element-plus/es/components/time-select/src/time-select.vue2.mjs',
+        length: 35,
+        line: 4,
+        lineText: "import customParseFormat from 'dayjs/plugin/customParseFormat.js';",
+        namespace: '',
+        suggestion: ''
+      },
+      notes: [],
+      pluginName: '',
+      text: 'Could not read from file: C:\\Users\\whd15\\Desktop\\code\\frontend\\node_modules\\dayjs\\esm\\index.js\\p
+lugin\\customParseFormat.js'
+    }
+  ],
+  warnings: []
+}
+
+Node.js v22.19.0

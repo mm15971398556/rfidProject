@@ -5,8 +5,8 @@ class Config:
     """系统配置类"""
     
     # TCP服务器配置
-    TCP_HOST = '192.168.1.101'
-    TCP_PORT = 8080
+    TCP_HOST = '10.106.0.233'
+    TCP_PORT = 18080
     MAX_CLIENTS = 100
     
     # MySQL数据库配置

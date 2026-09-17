@@ -169,6 +169,44 @@ class DatabaseManager:
                     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
                 """)
                 
+                # 创建条码维护人配置表
+                cursor.execute("""
+                    CREATE TABLE IF NOT EXISTS barcode_maintainers (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        barcode VARCHAR(200) NOT NULL COMMENT '条码',
+                        maintainer_name VARCHAR(100) NOT NULL COMMENT '维护人',
+                        is_active BOOLEAN DEFAULT TRUE COMMENT '是否启用',
+                        created_time DATETIME DEFAULT CURRENT_TIMESTAMP,
+                        updated_time DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                        UNIQUE KEY unique_barcode (barcode),
+                        INDEX idx_active (is_active)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+                """)
+
+                # 首次建表后，从前端旧 JSON 导入初始数据
+                cursor.execute("SELECT COUNT(*) as cnt FROM barcode_maintainers")
+                existing = cursor.fetchone()['cnt']
+                if existing == 0:
+                    import os, json
+                    json_path = os.path.join(
+                        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        '..', 'frontend', 'src', 'config', 'barcode-maintainer.json'
+                    )
+                    json_path = os.path.normpath(json_path)
+                    if os.path.isfile(json_path):
+                        try:
+                            with open(json_path, 'r', encoding='utf-8') as f:
+                                data = json.load(f)
+                            items = data.get('barcode_maintainers', {})
+                            for barcode, maintainer in items.items():
+                                cursor.execute(
+                                    "INSERT IGNORE INTO barcode_maintainers (barcode, maintainer_name) VALUES (%s, %s)",
+                                    [barcode, maintainer]
+                                )
+                            log.info(f"[数据库] 从 JSON 导入 {len(items)} 条维护人映射")
+                        except Exception as import_err:
+                            log.warning(f"[数据库] 从 JSON 导入初始数据失败: {import_err}")
+
                 conn.commit()
                 log.info("[数据库] 数据表初始化完成")
             

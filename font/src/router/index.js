@@ -2,6 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Dashboard from '../views/Dashboard.vue'
 import IssueReasons from '../views/IssueReasons.vue'
+import MaintainerConfig from '../views/MaintainerConfig.vue'
 
 const routes = [
   {
@@ -18,6 +19,14 @@ const routes = [
     component: IssueReasons,
     meta: {
       title: '问题原因管理'
+    }
+  },
+  {
+    path: '/maintainer-config',
+    name: 'MaintainerConfig',
+    component: MaintainerConfig,
+    meta: {
+      title: '条码维护人配置'
     }
   },
   {
