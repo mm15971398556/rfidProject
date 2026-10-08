@@ -1,1 +1,1 @@
-font为前端，services为后端
+font为前端，services为后端 TCP_HOST = '10.106.0.233'
