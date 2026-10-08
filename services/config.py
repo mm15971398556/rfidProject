@@ -19,7 +19,7 @@ class Config:
     
     # HTTP API配置
     HTTP_HOST = '0.0.0.0'
-    HTTP_PORT = 5000
+    HTTP_PORT = 8097
     DEBUG = True
     
     # 日志配置
